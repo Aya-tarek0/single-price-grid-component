@@ -80,14 +80,17 @@ button{
      margin-bottom: 0px;
       width: 75%;
       padding: 10px; 
+     border-raduis: 0px;
     }
   
     .left button {
+      
       width: 80%;
     }
   
     .top {
       padding: 10px;
+         border-raduis: 0px;
     }
   
    
