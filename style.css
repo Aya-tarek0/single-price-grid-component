@@ -1,0 +1,105 @@
+.card{
+    max-width: 600px;
+    margin: 90px 100px 80px 400px;
+   
+
+}
+p{
+    font-size: 14px;
+}
+
+.top{
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 1px;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+.right{
+    border-radius: 0px 0px 8px 0px;
+
+    color: hsl(204, 43%, 93%);
+    margin: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    flex: 1;
+    background-color: hsl(179, 43%, 55%);
+
+   
+}
+.left{
+    border-radius: 0px 0px 0px 8px;
+    color: hsl(204, 43%, 93%);
+    padding: 20px;
+    margin: 30px;
+    margin-right: 0px;
+    margin-top: 0px;
+    flex :1;
+    background-color: hsl(179, 62%, 43%);
+   
+}
+h3{
+    color:hsl(179, 47%, 41%) ;
+}
+.p1{
+    color:hsl(71, 73%, 54%);
+
+}
+button{
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    margin: 5px;
+    
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+    height: 34px;
+    border-radius: 3px;
+}
+@media (max-width: 600px) {
+    .card {
+      width: 70%;
+      margin:  auto; 
+    }
+  
+    .bottom {
+      flex-direction: column;
+    }
+  
+    .left, .right {
+     margin-left: 30px;
+     margin-bottom: 0px;
+      width: 75%;
+      padding: 10px; 
+    }
+  
+    .left button {
+      width: 80%;
+    }
+  
+    .top {
+      padding: 10px;
+    }
+  
+   
+  
+    .p1, .p2, .underPrice, .lastp {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 16px;
+      height: 40px;
+      margin: 10px 0;
+    }
+  }
+  
